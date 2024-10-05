@@ -22,7 +22,7 @@ void convert_to_letters(const char *digits, char *letters)
             letters[i] = '?'; 
         }
     }
-    /* for (int i = 0; digits[i] != '\0'; i++) 
+    for (int i = 0; digits[i] != '\0'; i++) 
     {
         if (digits[i] >= '0' && digits[i] <= '9') 
         {
@@ -32,7 +32,7 @@ void convert_to_letters(const char *digits, char *letters)
         {
             letters[i] = '?'; 
         }
-    }*/
+    }
     letters[strlen(digits)] = '\0'; 
 }
 
